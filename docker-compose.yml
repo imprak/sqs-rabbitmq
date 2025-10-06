@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  ppod_worker:
+    build: ppod_worker
+    env_file: .env
+
+  node_segment_worker:
+    build: node_segment_worker
+    env_file: .env
+
+  ant_worker:
+    build: ant_worker
+    env_file: .env
+
+
+
+
