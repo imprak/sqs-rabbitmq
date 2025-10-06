@@ -20,7 +20,7 @@ region_name = os.getenv("region_name")
 
 # from Spark_Initiation import spark
 
-from ant_worker.SQS_Processer import sqs_Message_Consumer
+from app.SQS_Processer import sqs_Message_Consumer
 
 
 PPOD_Service_Context_Default_schema = {

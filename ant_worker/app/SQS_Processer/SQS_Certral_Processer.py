@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from ant_worker.services import RabbitMQMessageProcesser
-from ant_worker.logging_mechanism import logger
+from app.services import RabbitMQMessageProcesser
+from app.logging_mechanism import logger
 
 aws_access_key_id = os.getenv("aws_access_key_id")
 aws_secret_access_key = os.getenv("aws_secret_access_key")

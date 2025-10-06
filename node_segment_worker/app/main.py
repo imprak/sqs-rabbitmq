@@ -18,7 +18,7 @@ region_name = os.getenv("region_name")
 # project_root = os.getenv("Project_Root")
 # sys.path.append(project_root)
 
-from ant_worker.SQS_Processer import sqs_Message_Consumer
+from app.SQS_Processer import sqs_Message_Consumer
 
 
 Node_Segment_Service_Context_Default_schema = {
