@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-from ant_worker import logger
+from app.logging_mechanism import logger
 
 # RMQ_HOST = "10.168.171.75"
 # RMQ_PORT = "5672" #8083
